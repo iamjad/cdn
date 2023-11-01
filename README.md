@@ -6,6 +6,7 @@ mycdn has list of distributions and each distribution define origin server. The 
 
 For this exercise, let's profile pictures of github.com users from github CDN. github users profile pictures is available on https://avatars.githubusercontent.com/u/<userid>. Any request coming to mycdn at localhost:8080 will go to "avatars.githubusercontent.com" origin in case if the user image is not stored locally. 
 
+## Before running, update /etc/hosts file with the following enteries
+127.0.0.1 google.mycdn.com
+127.0.0.1 github.mycdn.com
 
-127.0.0.1   www.githubfileexample.com
-127.0.0.1   www.googledynamicexample.com
