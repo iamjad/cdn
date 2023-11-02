@@ -7,5 +7,6 @@ For this exercise, let's profile pictures of github.com users from github CDN. g
 ## Before running, update /etc/hosts file with the following enteries
 
 127.0.0.1 google.mycdn.com
+
 127.0.0.1 github.mycdn.com
 
